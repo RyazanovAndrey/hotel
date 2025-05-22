@@ -27,10 +27,10 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<HomePage />} ></Route>
-          <Route path='about' element={<AboutPage/>} ></Route>
-          <Route path='room' element={<RoomsPage/>} ></Route>
-          <Route path='room/:id' element={<SingleRoom/>} ></Route>
-          <Route path='contacts' element={<ContactsPage/>} ></Route>
+          <Route path='/about' element={<AboutPage/>} ></Route>
+          <Route path='/room' element={<RoomsPage/>} ></Route>
+          <Route path='/room/:id' element={<SingleRoom/>} ></Route>
+          <Route path='/contacts' element={<ContactsPage/>} ></Route>
         </Route>
       </Routes>
     </>
