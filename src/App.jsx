@@ -25,12 +25,12 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Layout/>}>
+        <Route path='/hotel' element={<Layout/>}>
           <Route index element={<HomePage />} ></Route>
-          <Route path='/about' element={<AboutPage/>} ></Route>
-          <Route path='/room' element={<RoomsPage/>} ></Route>
-          <Route path='/room/:id' element={<SingleRoom/>} ></Route>
-          <Route path='/contacts' element={<ContactsPage/>} ></Route>
+          <Route path='/hotel/about' element={<AboutPage/>} ></Route>
+          <Route path='/hotel/room' element={<RoomsPage/>} ></Route>
+          <Route path='/hotel/room/:id' element={<SingleRoom/>} ></Route>
+          <Route path='/hotel/contacts' element={<ContactsPage/>} ></Route>
         </Route>
       </Routes>
     </>
