@@ -23,7 +23,7 @@ const Room = ({ id, title, desc, image, price, services }) => {
                 </div>
             </div>
             <div className="p-4 mt-10">
-                <div className="text-xl font-semibold hover:underline"><Link to={link + `/room/${id}`}>{title}</Link></div>
+                <div className="text-xl font-semibold hover:underline"><Link to={link + `room/${id}`}>{title}</Link></div>
                 <p className='text-[#7D7C7C] my-3'>{desc}</p>
                 <div className="flex gap-2 flex-wrap">
                     {services.map((item, i) => (
