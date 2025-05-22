@@ -43,7 +43,6 @@ const SingleRoom = () => {
                     </div>
                 </div>
             </section >
-            <Blog />
         </>
     );
 }
