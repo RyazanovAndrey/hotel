@@ -1,11 +1,21 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { BaseLink } from '../LinkContext';
 
 const MobileMenu = ({ setMobileMMenu }) => {
 
-    const activeLink = ({ isActive }) => {
-        return isActive ? 'text-xl text-black' : 'text-xl text-[#D5D5D5]'
-    }
+    // const activeLink = ({ isActive }) => {
+    //     return isActive ? 'text-xl text-black' : 'text-xl text-[#D5D5D5]'
+    // }
+
+    const link = useContext(BaseLink)
+
+    const activePath = [
+        { href: link, name: 'Головна' },
+        { href: link + 'about', name: 'О нас' },
+        { href: link + 'room', name: 'Наші номери' },
+        { href: link + 'contacts', name: 'Контакти' },
+    ]
 
     const closeMobileMenu = () => {
         setMobileMMenu(false)
@@ -13,10 +23,11 @@ const MobileMenu = ({ setMobileMMenu }) => {
 
     return (
         <div className='absolute top-[110%] left-0 bg-white p-7 rounded-2xl flex flex-col w-full space-y-10 shadow-md'>
-            <NavLink onClick={closeMobileMenu} to={'/'} className={activeLink}>Головна</NavLink>
-            <NavLink onClick={closeMobileMenu} to={'/about'} className={activeLink}>О нас</NavLink>
-            <NavLink onClick={closeMobileMenu} to={'/room'} className={activeLink}>Наші номери</NavLink>
-            <NavLink onClick={closeMobileMenu} to={'/contacts'} className={activeLink}>Контакти</NavLink>
+            <ul>
+                {activePath.map(item => {
+                    return <li><Link to={item.href} className={item.href == location.pathname ? 'text-black p-5 block text-lg' : 'text-[#D5D5D5] p-5 block text-lg'}>{item.name}</Link></li>
+                })}
+            </ul>
         </div>
     );
 }
