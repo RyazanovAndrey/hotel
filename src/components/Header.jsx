@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { useContext, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { RiHome9Line } from "react-icons/ri";
 import { IoIosMenu } from "react-icons/io";
 import Modal from './Modal';
 import MobileMenu from './MobileMenu';
+import { BaseLink } from '../LinkContext';
 
 const Header = () => {
 
@@ -12,15 +13,17 @@ const Header = () => {
     const [isOpenModal, setIsOpenModal] = useState(false);
     const [mobileMMenu, setMobileMMenu] = useState(false);
 
+    const link = useContext(BaseLink)
+
     // const activeLink = ({ isActive }) => {
     //   return isActive ? 'text-black' : 'text-[#D5D5D5]'
     // }
 
     const activePath = [
-        {href: '/hotel/', name: 'Головна'},
-        {href: '/hotel/about', name: 'О нас'},
-        {href: '/hotel/room', name: 'Наші номери'},
-        {href: '/hotel/contacts', name: 'Контакти'},
+        {href: link, name: 'Головна'},
+        {href: link + 'about', name: 'О нас'},
+        {href: link + 'room', name: 'Наші номери'},
+        {href: link + 'contacts', name: 'Контакти'},
     ]
 
     return (
