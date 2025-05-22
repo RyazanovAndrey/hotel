@@ -11,14 +11,6 @@ const App = () => {
 
   const locatiion = useLocation()
 
-  const routes = [
-    {path: '/', element: <HomePage/>},
-    {path: '/about', element: <AboutPage/>},
-    {path: '/room', element: <RoomsPage/>},
-    {path: '/room/:id', element: <SingleRoom/>},
-    {path: '/contacts', element: <ContactsPage/>},
-  ]
-
   const titlePage = {
     '/' : 'Головна',
     '/about' : 'О нас',
@@ -34,9 +26,11 @@ const App = () => {
     <>
       <Routes>
         <Route path='/' element={<Layout/>}>
-          {routes.map(item => (
-            <Route path={item.path} element={item.element} />
-          ))}
+          <Route index element={<HomePage />} ></Route>
+          <Route path='about' element={<AboutPage/>} ></Route>
+          <Route path='room' element={<RoomsPage/>} ></Route>
+          <Route path='room/:id' element={<SingleRoom/>} ></Route>
+          <Route path='contacts' element={<ContactsPage/>} ></Route>
         </Route>
       </Routes>
     </>
