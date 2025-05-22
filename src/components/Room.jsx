@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { RiDatabaseLine } from "react-icons/ri";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
 import { Link } from 'react-router-dom';
+import { BaseLink } from '../LinkContext';
 
 
 const Room = ({ id, title, desc, image, price, services }) => {
+
+    const link = useContext(BaseLink)
+
     return (
         <div className='rounded-2xl overflow-hidden shadow-sm'>
             <div className="relative">
-                <Link to={`/room/${id}`}>
+                <Link to={link + `room/${id}`}>
                     <img src={image} className='cursor-pointer w-full' alt="" />
                 </Link>
                 <div className="absolute -bottom-10 left-0 w-full flex justify-center">
