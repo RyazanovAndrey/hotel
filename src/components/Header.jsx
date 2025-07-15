@@ -32,7 +32,7 @@ const Header = () => {
                         return <li><Link to={item.href} className={item.href == location.pathname ? 'text-black' : 'text-[#D5D5D5]'}>{item.name}</Link></li>
                     })}
                 </ul>
-                <Link to={link + '/room'} className='bg-5 flex flex-none text-white p-3 rounded-lg cursor-pointer items-center gap-x-2'><RiHome9Line className='hidden md:block text-2xl' />Замовити номер</Link>
+                <Link to={link + 'room'} className='bg-5 flex flex-none text-white p-3 rounded-lg cursor-pointer items-center gap-x-2'><RiHome9Line className='hidden md:block text-2xl' />Замовити номер</Link>
                 {isOpenModal && <Modal setIsOpenModal={setIsOpenModal} />}
                 <button onClick={() => setMobileMMenu(!mobileMMenu)} className='text-6xl lg:hidden'><IoIosMenu /></button>
                 {mobileMMenu && <MobileMenu setMobileMMenu={setMobileMMenu} />}
