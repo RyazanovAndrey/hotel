@@ -26,7 +26,7 @@ const Header = () => {
     return (
         <header className='fixed w-full top-7 left-0 z-40 px-5'>
             <div className="relative container mx-auto px-5 py-3 flex items-center justify-between bg-white rounded-xl shadow-2xl">
-                <Link to={link} className='md:text-2xl font-bold'>Versel Resolve</Link>
+                <Link to={link} className='md:text-2xl font-bold'>VR Hotel</Link>
                 <ul className='hidden lg:flex gap-x-15 text-lg'>
                     {activePath.map(item => {
                         return <li><Link to={item.href} className={item.href == location.pathname ? 'text-black' : 'text-[#D5D5D5]'}>{item.name}</Link></li>
