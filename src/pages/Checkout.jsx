@@ -36,7 +36,7 @@ const Checkout = () => {
 
     return (
         <>
-            <section className='bg-[url("./public/about.jpg")] min-h-[250px] bg-center bg-cover grid place-items-center'>
+            <section className='bg-[url("../about.jpg")] min-h-[250px] bg-center bg-cover grid place-items-center'>
                 <Crumbs />
             </section>
             <section className='py-[100px]'>

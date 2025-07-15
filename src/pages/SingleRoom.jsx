@@ -37,7 +37,7 @@ const SingleRoom = () => {
 
     return (
         <>
-            <section className='bg-[url("../public/room-detail.jpg")] min-h-[250px] bg-center bg-cover grid place-items-center'>
+            <section className='bg-[url("../room-detail.jpg")] min-h-[250px] bg-center bg-cover grid place-items-center'>
                 <Crumbs />
             </section>
             <section className="container mx-auto px-2 py-10">
