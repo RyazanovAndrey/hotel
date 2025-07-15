@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-1: #583d21;
+  --color-2: #c09a77;
+  --color-3: #373738;
+  --color-4: #f7f5f1;
+  --color-5: #1a1918;
+  --color-6: #7d7c7c;
+}
+
+.layout {
+  @apply flex flex-col min-h-screen;
+}

@@ -1,0 +1,211 @@
+{
+    "rooms": [
+        {
+            "id": "369856",
+            "title": "Класичний номер",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros",
+            "price": "350",
+            "services": [
+                "TV",
+                "Free Wi-Fi",
+                "Кондиціонер",
+                "Холодильник"
+            ],
+            "rooms": "1",
+            "image": "room-1.jpg"
+        },
+        {
+            "id": "63956",
+            "title": "Подвійний номер",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros",
+            "price": "180",
+            "services": [
+                "TV",
+                "Free Wi-Fi",
+                "Кондиціонер",
+                "Холодильник",
+                "Сніданок"
+            ],
+            "rooms": "2",
+            "image": "room-2.jpg"
+        },
+        {
+            "id": "16385",
+            "title": "Lux номер",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros",
+            "price": "420",
+            "services": [
+                "TV",
+                "Free Wi-Fi",
+                "Кондиціонер",
+                "Холодильник",
+                "Сніданок",
+                "Балкон"
+            ],
+            "rooms": "2",
+            "image": "room-3.jpg"
+        },
+        {
+            "id": "59678",
+            "title": "Подвійний номер з балкном",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros",
+            "price": "600",
+            "services": [
+                "TV",
+                "Free Wi-Fi",
+                "Кондиціонер",
+                "Холодильник",
+                "Сніданок",
+                "Обід",
+                "Балкон"
+            ],
+            "rooms": "2",
+            "image": "room-1.jpg"
+        },
+        {
+            "id": "36792",
+            "title": "Тримісний номер",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros",
+            "price": "330",
+            "services": [
+                "TV",
+                "Free Wi-Fi",
+                "Кондиціонер",
+                "Холодильник",
+                "Сніданок",
+                "Обід",
+                "Балкон"
+            ],
+            "rooms": "3",
+            "image": "room-2.jpg"
+        },
+        {
+            "id": "79689",
+            "title": "Апартаменти Town House",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros",
+            "price": "370",
+            "services": [
+                "TV",
+                "Free Wi-Fi",
+                "Кондиціонер",
+                "Холодильник",
+                "Сніданок",
+                "Обід",
+                "Балкон",
+                "Басейн"
+            ],
+            "rooms": "4",
+            "image": "room-3.jpg"
+        },
+        {
+            "id": "25674",
+            "title": "Економ номер",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros",
+            "price": "540",
+            "services": [
+                "TV",
+                "Free Wi-Fi"
+            ],
+            "rooms": "2",
+            "image": "room-2.jpg"
+        },
+        {
+            "id": "663559",
+            "title": "Президентський номер",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commodo faucibus consectetur dictumst morbi dapibus eros",
+            "price": "230",
+            "services": [
+                "TV",
+                "Free Wi-Fi",
+                "Кондиціонер",
+                "Холодильник"
+            ],
+            "rooms": "1",
+            "image": "room-1.jpg"
+        }
+    ],
+    "services": [
+        {
+            "id": "23",
+            "icon": "01.svg",
+            "bg": "1.png",
+            "title": "Безкоштовна парковка",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": "56",
+            "icon": "02.svg",
+            "bg": "2.png",
+            "title": "Сніданок у номер",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": "96",
+            "icon": "03.svg",
+            "bg": "3.png",
+            "title": "Wi-Fi у кожному номері",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": "78",
+            "icon": "04.svg",
+            "bg": "4.png",
+            "title": "Доставка багажу",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": "45",
+            "icon": "05.svg",
+            "bg": "5.png",
+            "title": "Оплата будь-якими картами",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": "12",
+            "icon": "06.svg",
+            "bg": "6.png",
+            "title": "SPA у комплексі",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": "52",
+            "icon": "06.svg",
+            "bg": "6.png",
+            "title": "SPA у комплексі",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": "46",
+            "icon": "06.svg",
+            "bg": "6.png",
+            "title": "SPA у комплексі",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        }
+    ],
+    "blog": [
+        {
+            "image": "blog-1.jpg",
+            "date": "22 березня",
+            "title": "Статья блога про разное там что то говорят",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commo"
+        },
+        {
+            "image": "blog-2.jpg",
+            "date": "28 березня",
+            "title": "Статья блога про разное там что то говорят",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commo"
+        },
+        {
+            "image": "blog-3.jpg",
+            "date": "02 травня",
+            "title": "Статья блога про разное там что то говорят",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commo"
+        },
+        {
+            "image": "blog-4.jpg",
+            "date": "12 травня",
+            "title": "Статья блога про разное там что то говорят",
+            "desc": "Lorem ipsum vitae est id augue fringilla at fringilla scelerisque orci dui diam velit lectus integer sed imperdiet ornare commo"
+        }
+    ]
+}
